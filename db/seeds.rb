@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+5.times do 
+  Person.create(first_name: Faker::Zelda.character, last_name: Faker::Zelda.character, avatar:Faker::Zelda.item, phone: 5555555, email: 'email@email.com') 
+end
+
+
